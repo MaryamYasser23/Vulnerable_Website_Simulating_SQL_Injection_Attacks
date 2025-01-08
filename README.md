@@ -26,8 +26,8 @@ The project went through the following stages:
 
 ## **Technologies Used**
 - **Frontend:** HTML, CSS, Bootstrap  
-- **Backend:** PHP  
-- **Database:** MySQL  
+- **Backend:** PHP (Used for SQL Injection Detection and Alert Notifications)
+- **Database:** MySQL 
 
 ## **How to Run This Project**
 

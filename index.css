@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+}
+
+.hero {
+    background: linear-gradient(to right, #35064c, #683c9e);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #683c9e;
+    font-family: 'Georgia', serif;
+}
+
+.navbar-brand:hover {
+    color: #35064c;
+}
+
+.nav-link {
+    color: #35064c ;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #966dc7;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #35064c;
+}
+
+.btn-o {
+    border-color: #35064c;
+    color: #35064c;
+}
+
+.btn-o:hover {
+    background-color: #35064c;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Georgia', serif;
+}
+
+.card-text {
+    color: #606060;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+footer {
+    background: linear-gradient(to right, #35064c, #683c9e);
+    color: white;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.auth-buttons {
+    margin-left: auto;
+}

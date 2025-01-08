@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.btn-primary {
+    background-color: #966dc7;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #35064c;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #683c9e;
+    font-family: 'Georgia', serif;
+}
+
+.navbar-brand:hover {
+    color: #35064c;
+}
+
+.nav-link {
+    color: #35064c;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+h2 {
+    color: #35064c;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+button {
+    background-color: #35064c ;
+    border: none ;
+    border-radius: 4px ;
+    color: white ;
+    font-size: 1rem;
+    padding: 10px ;
+    width: 100% ;
+    cursor: pointer ;
+}
+
+button:hover {
+    background-color: #966dc7 ;
+}
+
+button:active {
+    opacity: 0.7 ;
+}

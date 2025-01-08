@@ -2,6 +2,12 @@
 
 This project demonstrates the lifecycle of building a vulnerable web application designed for simulating SQL Injection (SQLi) attacks and testing a detection and alert system. It is ideal for learning and experimenting with security mechanisms in web applications.
 
+## **Features**
+
+1. Simulates common SQLi vulnerabilities for testing and education purposes.
+2. Detects malicious SQL queries based on predefined rules.
+3. Sends real-time email alerts when a suspicious activity is detected.
+
 ## **Project Overview**
 
 The project went through the following stages:
@@ -48,12 +54,6 @@ To set up and run this project locally, follow these steps:
   $dbName = 'your-database-name';
 ```
 5. Start your local server (e.g., XAMPP, WAMP, or any PHP server) and access the project via your browser.
-
-## **Features**
-
-1. Simulates common SQLi vulnerabilities for testing and education purposes.
-2. Detects malicious SQL queries based on predefined rules.
-3. Sends real-time email alerts when a suspicious activity is detected.
 
 ## **Disclaimer**
 

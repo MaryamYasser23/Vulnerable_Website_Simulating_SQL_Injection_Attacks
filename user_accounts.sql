@@ -40,8 +40,8 @@ CREATE TABLE `user_accounts` (
 --
 
 INSERT INTO `user_accounts` (`id`, `username`, `email`, `password`, `created_at`) VALUES
-(21, 'Maryam', 'admin@admin.com', '123', '2024-12-04 15:56:23'),
-(22, 'Farah', 'g@gmail.com', '123', '2024-12-04 15:56:35');
+(1, 'Maryam', 'maryam@gmail.com', '123mm', '2024-12-04 15:56:23'),
+(2, 'Farah', 'farah@gmail.com', '123mm', '2024-12-04 15:56:35');
 
 --
 -- Indexes for dumped tables
